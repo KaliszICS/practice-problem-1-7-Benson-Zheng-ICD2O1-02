@@ -2,8 +2,7 @@
 
 def q1():
   #Write code here
-   bool1 = "true"
-   print(bool1)
+   print(True)
 
 def q2():
   #Write code here
@@ -15,10 +14,13 @@ def q2():
 
 def q3():
   #Write code here
-  let1 = input("Input the letter a: ")
-  let1 = str(let1)
-  bool1 = let1 == 'a'
-  print(bool1)
+ 
+  
+  five = input("Input the letter a: ")
+  out1 = five == "a"
+  print(out1)
+
+
 
 def q4():
   #Write code here
@@ -27,12 +29,13 @@ def q4():
   print(bool1)
 def q5():
   #Write code here
-  num2 = input("Input an integer: ")
-  num3 = input("Input another integer ")
-  num2 = int(num2)
-  num3 = int(num3)
-  bool1 = (num3*num2) > 40
-  print (f"Your numbers multiplied together are greater than 40: ", bool1)
+  num1 = int(input("Input an integer: "))
+  num2 = int(input("Input another integer: "))
+
+  bool5 = (num1 * num2) > 40
+
+  print("Your numbers multiplied together are greater than 40:", bool5)
+
 #Do edit the code below
 #Comment the lines below when running your tests
 
