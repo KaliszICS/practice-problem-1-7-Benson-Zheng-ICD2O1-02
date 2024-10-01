@@ -14,11 +14,13 @@ def q2():
 
 def q3():
   #Write code here
+  #Ask the user, "Input the letter a:". Output True when the input is a. Output False when it is not.
  
   
-  five = input("Input the letter a: ")
-  out1 = five == "a"
+  input1 = input("Input the letter a:")
+  out1 = input1 == "a"
   print(out1)
+
 
 
 
